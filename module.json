@@ -1,0 +1,57 @@
+{
+      "id": "trpg-crab-dnd5e",
+      "title": "かにTRPG部(D&D5e)",
+      "description": "かにTRPG部共有データ(D&D5e)",
+      "authors": [
+        {
+            "name": "かに",
+            "url": "",
+            "discord": "",
+            "flags": {}
+        }
+      ],
+      "version": "1.0.0",
+      "compatibility": {
+        "minimum": "11",
+        "verified": "12",
+        "maximum": "12"
+        },
+      "packs": [
+         {
+            "name": "items",
+            "label": "アイテム",
+            "path": "packs/items.db",
+            "type": "Item",
+            "system": "dnd5e",
+            "module": "trpg-crab-dnd5e"
+         },
+         {
+            "name": "actors",
+            "label": "キャラクター",
+            "path": "packs/actors.db",
+            "type": "Actor",
+            "system": "dnd5e",
+            "module": "trpg-crab-dnd5e"
+        },
+        {
+            "name": "journals",
+            "label": "資料",
+            "path": "packs/journal.db",
+            "type": "JournalEntry",
+            "system": "dnd5e",
+            "module": "trpg-crab-dnd5e"
+        },
+        {
+            "name": "rolltables",
+            "label": "ロール表",
+            "path": "packs/rolltables.db",
+            "type": "RollTable",
+            "system": "dnd5e",
+            "module": "trpg-crab-dnd5e"
+        }
+
+     ],
+     "url": "https://github.com/cycla-1207/trpg-crab-dnd5e",
+     "manifest": "https://raw.githubusercontent.com/cycla-1207/trpg-crab-dnd5e/master/module.json",
+     "download": "https://github.com/cycla-1207/trpg-crab-dnd5e/archive/refs/heads/master.zip"
+}

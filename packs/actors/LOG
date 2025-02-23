@@ -1,0 +1,9 @@
+2025/02/23-01:25:19.634 5aa0 Recovering log #585
+2025/02/23-01:25:19.638 5aa0 Delete type=0 #585
+2025/02/23-01:25:19.638 5aa0 Delete type=3 #584
+2025/02/23-01:28:34.205 1cc0 Level-0 table #589: started
+2025/02/23-01:28:34.248 1cc0 Level-0 table #589: 4177758 bytes OK
+2025/02/23-01:28:34.250 1cc0 Delete type=0 #587
+2025/02/23-01:30:20.104 1cc0 Level-0 table #591: started
+2025/02/23-01:30:20.162 1cc0 Level-0 table #591: 2699021 bytes OK
+2025/02/23-01:30:20.163 1cc0 Delete type=0 #588
