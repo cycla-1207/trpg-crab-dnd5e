@@ -1,24 +1,11 @@
-2026/03/16-11:06:21.152 47dc Recovering log #2007
-2026/03/16-11:06:21.156 47dc Level-0 table #2009: started
-2026/03/16-11:06:21.174 47dc Level-0 table #2009: 979951 bytes OK
-2026/03/16-11:06:21.179 47dc Delete type=0 #2007
-2026/03/16-11:06:21.180 47dc Delete type=3 #2006
-2026/03/16-11:06:21.280 1934 Moved #2009 to level-1 979951 bytes OK: files[ 0 1 7 0 0 0 0 ]
-2026/03/16-11:06:22.275 1934 Compacting 1@1 + 7@2 files
-2026/03/16-11:06:22.319 1934 Generated table #2011@1: 884 keys, 2122437 bytes
-2026/03/16-11:06:22.360 1934 Generated table #2012@1: 1168 keys, 2122409 bytes
-2026/03/16-11:06:22.471 1934 Generated table #2013@1: 1215 keys, 2123929 bytes
-2026/03/16-11:06:22.512 1934 Generated table #2014@1: 1177 keys, 2126524 bytes
-2026/03/16-11:06:22.549 1934 Generated table #2015@1: 1215 keys, 2126574 bytes
-2026/03/16-11:06:22.594 1934 Generated table #2016@1: 1222 keys, 2124269 bytes
-2026/03/16-11:06:22.613 1934 Generated table #2017@1: 1131 keys, 606901 bytes
-2026/03/16-11:06:22.613 1934 Compacted 1@1 + 7@2 files => 13353043 bytes
-2026/03/16-11:06:22.613 1934 compacted to: files[ 0 0 7 0 0 0 0 ]
-2026/03/16-11:06:22.613 1934 Delete type=2 #1825
-2026/03/16-11:06:22.614 1934 Delete type=2 #1826
-2026/03/16-11:06:22.614 1934 Delete type=2 #1827
-2026/03/16-11:06:22.615 1934 Delete type=2 #1828
-2026/03/16-11:06:22.615 1934 Delete type=2 #1829
-2026/03/16-11:06:22.616 1934 Delete type=2 #1830
-2026/03/16-11:06:22.616 1934 Delete type=2 #1831
-2026/03/16-11:06:22.617 1934 Delete type=2 #2009
+2026/03/16-11:33:52.761 7d58 Log #2020: 0 ops saved to Table #2028 OK
+2026/03/16-11:33:52.762 7d58 Archiving C:\Users\mofum\AppData\Local\FoundryVTT\Data\modules\trpg-crab-dnd5e\packs\actors/002020.log: OK
+2026/03/16-11:33:52.768 7d58 Table #2021: 887 entries OK
+2026/03/16-11:33:52.775 7d58 Table #2022: 1140 entries OK
+2026/03/16-11:33:52.782 7d58 Table #2023: 1211 entries OK
+2026/03/16-11:33:52.787 7d58 Table #2024: 1165 entries OK
+2026/03/16-11:33:52.842 7d58 Table #2025: 1224 entries OK
+2026/03/16-11:33:52.847 7d58 Table #2026: 1252 entries OK
+2026/03/16-11:33:52.850 7d58 Table #2027: 1133 entries OK
+2026/03/16-11:33:52.852 7d58 Archiving C:\Users\mofum\AppData\Local\FoundryVTT\Data\modules\trpg-crab-dnd5e\packs\actors/MANIFEST-002018: OK
+2026/03/16-11:33:52.854 7d58 **** Repaired leveldb C:\Users\mofum\AppData\Local\FoundryVTT\Data\modules\trpg-crab-dnd5e\packs\actors; recovered 7 files; 13350299 bytes. Some data may have been lost. ****

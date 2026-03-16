@@ -1,3 +1,5 @@
-2026/03/16-11:06:21.292 2a68 Recovering log #2246
-2026/03/16-11:06:21.297 2a68 Delete type=0 #2246
-2026/03/16-11:06:21.297 2a68 Delete type=3 #2245
+2026/03/16-11:33:52.946 7d58 Log #2250: 0 ops saved to Table #2251 OK
+2026/03/16-11:33:52.946 7d58 Archiving C:\Users\mofum\AppData\Local\FoundryVTT\Data\modules\trpg-crab-dnd5e\packs\journal/002250.log: OK
+2026/03/16-11:33:52.947 7d58 Table #2070: 98 entries OK
+2026/03/16-11:33:52.949 7d58 Archiving C:\Users\mofum\AppData\Local\FoundryVTT\Data\modules\trpg-crab-dnd5e\packs\journal/MANIFEST-002249: OK
+2026/03/16-11:33:52.951 7d58 **** Repaired leveldb C:\Users\mofum\AppData\Local\FoundryVTT\Data\modules\trpg-crab-dnd5e\packs\journal; recovered 1 files; 95805 bytes. Some data may have been lost. ****
