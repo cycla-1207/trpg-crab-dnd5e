@@ -14,7 +14,7 @@
       "compatibility": {
         "minimum": "11",
         "verified": "12",
-        "maximum": "12"
+        "maximum": "13"
         },
       "packs": [
          {
@@ -50,8 +50,5 @@
             "module": "trpg-crab-dnd5e"
         }
 
-     ],
-     "url": "https://github.com/cycla-1207/trpg-crab-dnd5e",
-     "manifest": "https://raw.githubusercontent.com/cycla-1207/trpg-crab-dnd5e/master/module.json",
-     "download": "https://github.com/cycla-1207/trpg-crab-dnd5e/archive/refs/heads/master.zip"
+     ]
 }
