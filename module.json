@@ -16,6 +16,18 @@
         "verified": "12",
         "maximum": "13"
         },
+      "scripts": [
+	    "scripts/init.js"
+      ],
+      "relationships": {
+	  "requires": [
+	    {
+	      "id": "scene-packer",
+	      "type": "module",
+	      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json"
+	    }
+	  ]
+      },
       "packs": [
          {
             "name": "items",
@@ -34,9 +46,17 @@
             "module": "trpg-crab-dnd5e"
         },
         {
+            "name": "scenes",
+            "label": "マップ",
+            "path": "packs/scenes.db",
+            "type": "Scene",
+            "system": "dnd5e",
+            "module": "trpg-crab-dnd5e"
+        },
+        {
             "name": "journals",
             "label": "資料",
-            "path": "packs/journal.db",
+            "path": "packs/journals.db",
             "type": "JournalEntry",
             "system": "dnd5e",
             "module": "trpg-crab-dnd5e"
