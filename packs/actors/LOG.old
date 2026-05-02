@@ -1,17 +1,19 @@
-<<<<<<< Updated upstream
-2026/03/16-11:33:52.761 7d58 Log #2020: 0 ops saved to Table #2028 OK
-2026/03/16-11:33:52.762 7d58 Archiving C:\Users\mofum\AppData\Local\FoundryVTT\Data\modules\trpg-crab-dnd5e\packs\actors/002020.log: OK
-2026/03/16-11:33:52.768 7d58 Table #2021: 887 entries OK
-2026/03/16-11:33:52.775 7d58 Table #2022: 1140 entries OK
-2026/03/16-11:33:52.782 7d58 Table #2023: 1211 entries OK
-2026/03/16-11:33:52.787 7d58 Table #2024: 1165 entries OK
-2026/03/16-11:33:52.842 7d58 Table #2025: 1224 entries OK
-2026/03/16-11:33:52.847 7d58 Table #2026: 1252 entries OK
-2026/03/16-11:33:52.850 7d58 Table #2027: 1133 entries OK
-2026/03/16-11:33:52.852 7d58 Archiving C:\Users\mofum\AppData\Local\FoundryVTT\Data\modules\trpg-crab-dnd5e\packs\actors/MANIFEST-002018: OK
-2026/03/16-11:33:52.854 7d58 **** Repaired leveldb C:\Users\mofum\AppData\Local\FoundryVTT\Data\modules\trpg-crab-dnd5e\packs\actors; recovered 7 files; 13350299 bytes. Some data may have been lost. ****
-=======
-2026/04/26-19:13:52.270 2b20 Recovering log #1827
-2026/04/26-19:13:52.276 2b20 Delete type=0 #1827
-2026/04/26-19:13:52.276 2b20 Delete type=3 #1826
->>>>>>> Stashed changes
+2026/05/02-21:29:10.575 2718 Recovering log #2035
+2026/05/02-21:29:10.583 2718 Level-0 table #2044: started
+2026/05/02-21:29:10.617 2718 Level-0 table #2044: 2151378 bytes OK
+2026/05/02-21:29:10.623 2718 Delete type=0 #2035
+2026/05/02-21:29:10.624 2718 Delete type=3 #2034
+2026/05/02-21:29:11.499 1a6c Compacting 1@0 + 5@1 files
+2026/05/02-21:29:11.542 1a6c Generated table #2046@0: 1408 keys, 2125956 bytes
+2026/05/02-21:29:11.649 1a6c Generated table #2047@0: 1191 keys, 2125357 bytes
+2026/05/02-21:29:11.694 1a6c Generated table #2048@0: 1146 keys, 2123449 bytes
+2026/05/02-21:29:11.736 1a6c Generated table #2049@0: 1246 keys, 2124849 bytes
+2026/05/02-21:29:11.775 1a6c Generated table #2050@0: 1934 keys, 1879089 bytes
+2026/05/02-21:29:11.775 1a6c Compacted 1@0 + 5@1 files => 10378700 bytes
+2026/05/02-21:29:11.776 1a6c compacted to: files[ 0 5 2 0 0 0 0 ]
+2026/05/02-21:29:11.776 1a6c Delete type=2 #2038
+2026/05/02-21:29:11.776 1a6c Delete type=2 #2039
+2026/05/02-21:29:11.777 1a6c Delete type=2 #2040
+2026/05/02-21:29:11.777 1a6c Delete type=2 #2041
+2026/05/02-21:29:11.777 1a6c Delete type=2 #2042
+2026/05/02-21:29:11.778 1a6c Delete type=2 #2044
