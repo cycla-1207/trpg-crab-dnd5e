@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 2026/03/16-11:33:52.761 7d58 Log #2020: 0 ops saved to Table #2028 OK
 2026/03/16-11:33:52.762 7d58 Archiving C:\Users\mofum\AppData\Local\FoundryVTT\Data\modules\trpg-crab-dnd5e\packs\actors/002020.log: OK
 2026/03/16-11:33:52.768 7d58 Table #2021: 887 entries OK
@@ -9,3 +10,8 @@
 2026/03/16-11:33:52.850 7d58 Table #2027: 1133 entries OK
 2026/03/16-11:33:52.852 7d58 Archiving C:\Users\mofum\AppData\Local\FoundryVTT\Data\modules\trpg-crab-dnd5e\packs\actors/MANIFEST-002018: OK
 2026/03/16-11:33:52.854 7d58 **** Repaired leveldb C:\Users\mofum\AppData\Local\FoundryVTT\Data\modules\trpg-crab-dnd5e\packs\actors; recovered 7 files; 13350299 bytes. Some data may have been lost. ****
+=======
+2026/04/26-19:13:52.270 2b20 Recovering log #1827
+2026/04/26-19:13:52.276 2b20 Delete type=0 #1827
+2026/04/26-19:13:52.276 2b20 Delete type=3 #1826
+>>>>>>> Stashed changes

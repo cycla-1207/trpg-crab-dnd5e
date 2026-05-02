@@ -1,5 +1,11 @@
+<<<<<<< Updated upstream
 2026/03/16-11:33:52.862 7d58 Delete type=3 #1
 2026/03/16-11:33:52.863 64dc Moved #2021 to level-1 2119718 bytes OK: files[ 6 1 0 0 0 0 0 ]
 2026/03/16-11:33:52.863 64dc Moved #2022 to level-1 2122237 bytes OK: files[ 5 2 0 0 0 0 0 ]
 2026/03/16-11:33:52.864 64dc Moved #2023 to level-1 2124635 bytes OK: files[ 4 3 0 0 0 0 0 ]
 2026/03/16-11:33:52.864 64dc Moved #2024 to level-1 2123729 bytes OK: files[ 3 4 0 0 0 0 0 ]
+=======
+2026/04/28-21:03:40.735 4fd4 Recovering log #1829
+2026/04/28-21:03:40.740 4fd4 Delete type=0 #1829
+2026/04/28-21:03:40.740 4fd4 Delete type=3 #1828
+>>>>>>> Stashed changes
