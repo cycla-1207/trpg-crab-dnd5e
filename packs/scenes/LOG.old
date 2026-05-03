@@ -1,3 +1,5 @@
-2026/05/03-06:28:43.246 dea0 Recovering log #5
-2026/05/03-06:28:43.249 dea0 Delete type=0 #5
-2026/05/03-06:28:43.249 dea0 Delete type=3 #4
+2026/05/03-06:40:20.791 df80 Recovering log #7
+2026/05/03-06:40:20.791 df80 Level-0 table #9: started
+2026/05/03-06:40:20.794 df80 Level-0 table #9: 11941 bytes OK
+2026/05/03-06:40:20.798 df80 Delete type=0 #7
+2026/05/03-06:40:20.798 df80 Delete type=3 #6
