@@ -12,9 +12,9 @@
       ],
       "version": "1.0.7",
       "compatibility": {
-        "minimum": "11",
-        "verified": "12",
-        "maximum": "13"
+        "minimum": "13",
+        "verified": "14",
+        "maximum": "14"
         },
       "scripts": [
 	    "scripts/init.js"
