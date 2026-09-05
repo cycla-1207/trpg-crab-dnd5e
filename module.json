@@ -1,14 +1,14 @@
 {
   "id": "trpg-crab-dnd5e",
   "title": "かにTRPG部(D&D5e)",
-  "description": "かにTRPG部共有データ(D&amp;D5e)",
+  "description": "<p>かにTRPG部共有データ(D&amp;D5e)</p>",
   "authors": [
     {
       "name": "かに",
       "flags": {}
     }
   ],
-  "version": "1.0.7",
+  "version": "1.0.8",
   "compatibility": {
     "minimum": "12",
     "verified": "13",
@@ -89,16 +89,27 @@
       "label": "クラス",
       "path": "packs/classes",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "species",
       "label": "種族",
       "path": "packs/species",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "gems",
+      "label": "宝石素材",
+      "path": "packs/gems",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -106,5 +117,6 @@
       },
       "system": "dnd5e"
     }
-  ]
+  ],
+  "flags": {}
 }
