@@ -1,74 +1,109 @@
 {
-      "id": "trpg-crab-dnd5e",
-      "title": "かにTRPG部(D&D5e)",
-      "description": "かにTRPG部共有データ(D&D5e)",
-      "authors": [
-        {
-            "name": "かに",
-            "url": "",
-            "discord": "",
-            "flags": {}
-        }
-      ],
-      "version": "1.0.7",
-      "compatibility": {
-        "minimum": "13",
-        "verified": "14",
-        "maximum": "14"
-        },
-      "scripts": [
-	    "scripts/init.js"
-      ],
-      "relationships": {
-	  "requires": [
-	    {
-	      "id": "scene-packer",
-	      "type": "module",
-	      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json"
-	    }
-	  ]
+  "id": "trpg-crab-dnd5e",
+  "title": "かにTRPG部(D&D5e)",
+  "description": "かにTRPG部共有データ(D&amp;D5e)",
+  "authors": [
+    {
+      "name": "かに",
+      "flags": {}
+    }
+  ],
+  "version": "1.0.7",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "scripts": [
+    "scripts/init.js"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "scene-packer",
+        "type": "module",
+        "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "items",
+      "label": "アイテム",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "actors",
+      "label": "キャラクター",
+      "path": "packs/actors",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "scenes",
+      "label": "マップ",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "journals",
+      "label": "資料",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "rolltables",
+      "label": "ロール表",
+      "path": "packs/rolltables",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "classes",
+      "label": "クラス",
+      "path": "packs/classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
       },
-      "packs": [
-         {
-            "name": "items",
-            "label": "アイテム",
-            "path": "packs/items.db",
-            "type": "Item",
-            "system": "dnd5e",
-            "module": "trpg-crab-dnd5e"
-         },
-         {
-            "name": "actors",
-            "label": "キャラクター",
-            "path": "packs/actors.db",
-            "type": "Actor",
-            "system": "dnd5e",
-            "module": "trpg-crab-dnd5e"
-        },
-        {
-            "name": "scenes",
-            "label": "マップ",
-            "path": "packs/scenes.db",
-            "type": "Scene",
-            "system": "dnd5e",
-            "module": "trpg-crab-dnd5e"
-        },
-        {
-            "name": "journals",
-            "label": "資料",
-            "path": "packs/journals.db",
-            "type": "JournalEntry",
-            "system": "dnd5e",
-            "module": "trpg-crab-dnd5e"
-        },
-        {
-            "name": "rolltables",
-            "label": "ロール表",
-            "path": "packs/rolltables.db",
-            "type": "RollTable",
-            "system": "dnd5e",
-            "module": "trpg-crab-dnd5e"
-        }
-
-     ]
+      "system": "dnd5e"
+    },
+    {
+      "name": "species",
+      "label": "種族",
+      "path": "packs/species",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ]
 }
