@@ -15,7 +15,8 @@
     "maximum": "13"
   },
   "scripts": [
-    "scripts/init.js"
+    "scripts/init.js",
+    "scripts/gem-roll.js"
   ],
   "relationships": {
     "requires": [
