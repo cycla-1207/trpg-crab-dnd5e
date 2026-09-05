@@ -232,12 +232,53 @@ Hooks.on("createChatMessage", async message => {
     return;
   }
 
-  const gem =
-    tableResult.documentUuid
-      ? await fromUuid(
-          tableResult.documentUuid
-        )
-      : null;
+  // ============================================================
+  // 宝石Item取得：TRPG部UUIDを優先し、名前の完全一致へフォールバック
+  // ============================================================
+
+  const itemPackIds = [
+    "trpg-crab-dnd5e.items",
+    "trpg-crab-dnd5e.gems"
+  ];
+  const gemName = tableResult.name;
+  const gemUuid = tableResult.documentUuid;
+  let gem = null;
+
+  if (
+    typeof gemUuid === "string" &&
+    gemUuid.startsWith("Compendium.trpg-crab-dnd5e.")
+  ) {
+    try {
+      const candidate = await fromUuid(gemUuid);
+      if (candidate?.documentName === "Item" && candidate.name === gemName) {
+        gem = candidate;
+      }
+    }
+    catch (err) {
+      console.warn("Gem Roll | TRPG部UUIDからのItem取得失敗", gemUuid, err);
+    }
+  }
+
+  // itemsで見つからない場合は、宝石素材辞典gemsも完全一致で検索
+  for (const itemPackId of itemPackIds) {
+    if (gem) break;
+    const itemPack = game.packs.get(itemPackId);
+    if (!itemPack || itemPack.documentName !== "Item") continue;
+
+    try {
+      const itemIndex = await itemPack.getIndex({ fields: ["name"] });
+      const itemEntry = itemIndex.find(entry => entry.name === gemName);
+      if (!itemEntry) continue;
+
+      const candidate = await itemPack.getDocument(itemEntry._id);
+      if (candidate?.documentName === "Item" && candidate.name === gemName) {
+        gem = candidate;
+      }
+    }
+    catch (err) {
+      console.error("Gem Roll | Item辞典からの取得失敗", itemPackId, gemName, err);
+    }
+  }
 
   if (!gem) {
     console.error(
