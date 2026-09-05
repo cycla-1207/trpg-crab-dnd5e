@@ -1,11 +1,5 @@
-2026/09/05-20:26:19.273 5ec8 Recovering log #2045
-2026/09/05-20:26:19.273 5ec8 Level-0 table #2047: started
-2026/09/05-20:26:19.278 5ec8 Level-0 table #2047: 49316 bytes OK
-2026/09/05-20:26:19.287 5ec8 Delete type=0 #2045
-2026/09/05-20:26:19.288 5ec8 Delete type=3 #2044
-2026/09/05-20:26:23.099 5cd8 Compacting 1@0 + 1@1 files
-2026/09/05-20:26:23.107 5cd8 Generated table #2049@0: 585 keys, 106609 bytes
-2026/09/05-20:26:23.107 5cd8 Compacted 1@0 + 1@1 files => 106609 bytes
-2026/09/05-20:26:23.109 5cd8 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/09/05-20:26:23.109 5cd8 Delete type=2 #2037
-2026/09/05-20:26:23.110 5cd8 Delete type=2 #2047
+2026/09/05-21:18:10.368 14898 Log #2051: 0 ops saved to Table #2052 OK
+2026/09/05-21:18:10.369 14898 Archiving C:\Users\mofum\AppData\Local\FoundryVTT\Data\modules\trpg-crab-dnd5e\packs\rolltables/002051.log: OK
+2026/09/05-21:18:10.370 14898 Table #2049: 585 entries OK
+2026/09/05-21:18:10.371 14898 Archiving C:\Users\mofum\AppData\Local\FoundryVTT\Data\modules\trpg-crab-dnd5e\packs\rolltables/MANIFEST-002050: OK
+2026/09/05-21:18:10.373 14898 **** Repaired leveldb C:\Users\mofum\AppData\Local\FoundryVTT\Data\modules\trpg-crab-dnd5e\packs\rolltables; recovered 1 files; 106609 bytes. Some data may have been lost. ****

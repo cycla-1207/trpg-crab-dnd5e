@@ -1,3 +1,9 @@
-2026/09/05-20:33:30.089 50bc Recovering log #2732
-2026/09/05-20:33:30.096 50bc Delete type=0 #2732
-2026/09/05-20:33:30.096 50bc Delete type=3 #2731
+2026/09/05-21:18:10.158 160c0 Delete type=3 #1
+2026/09/05-21:18:10.159 11bb0 Moved #2717 to level-1 2119361 bytes OK: files[ 9 1 0 0 0 0 0 ]
+2026/09/05-21:18:10.159 11bb0 Moved #2718 to level-1 2125457 bytes OK: files[ 8 2 0 0 0 0 0 ]
+2026/09/05-21:18:10.160 11bb0 Moved #2719 to level-1 2122352 bytes OK: files[ 7 3 0 0 0 0 0 ]
+2026/09/05-21:18:10.160 11bb0 Moved #2720 to level-1 8848 bytes OK: files[ 6 4 0 0 0 0 0 ]
+2026/09/05-21:18:10.161 11bb0 Moved #2713 to level-1 2125338 bytes OK: files[ 5 5 0 0 0 0 0 ]
+2026/09/05-21:18:10.161 11bb0 Moved #2714 to level-1 981918 bytes OK: files[ 4 6 0 0 0 0 0 ]
+2026/09/05-21:18:10.161 11bb0 Moved #2721 to level-1 2128822 bytes OK: files[ 3 7 0 0 0 0 0 ]
+2026/09/05-21:18:10.162 11bb0 Moved #2717 to level-2 2119361 bytes OK: files[ 3 6 1 0 0 0 0 ]

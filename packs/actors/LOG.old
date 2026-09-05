@@ -1,3 +1,14 @@
-2026/09/05-20:26:19.102 5a7c Recovering log #2730
-2026/09/05-20:26:19.108 5a7c Delete type=0 #2730
-2026/09/05-20:26:19.109 5a7c Delete type=3 #2729
+2026/09/05-21:18:09.889 160c0 Log #2734: 0 ops saved to Table #2735 OK
+2026/09/05-21:18:09.889 160c0 Archiving C:\Users\mofum\AppData\Local\FoundryVTT\Data\modules\trpg-crab-dnd5e\packs\actors/002734.log: OK
+2026/09/05-21:18:10.006 160c0 Table #2713: 1151 entries OK
+2026/09/05-21:18:10.009 160c0 Table #2714: 544 entries OK
+2026/09/05-21:18:10.015 160c0 Table #2717: 763 entries OK
+2026/09/05-21:18:10.021 160c0 Table #2718: 1151 entries OK
+2026/09/05-21:18:10.027 160c0 Table #2719: 1162 entries OK
+2026/09/05-21:18:10.028 160c0 Table #2720: 5 entries OK
+2026/09/05-21:18:10.040 160c0 Table #2721: 1176 entries OK
+2026/09/05-21:18:10.138 160c0 Table #2722: 1166 entries OK
+2026/09/05-21:18:10.144 160c0 Table #2723: 1224 entries OK
+2026/09/05-21:18:10.149 160c0 Table #2724: 1720 entries OK
+2026/09/05-21:18:10.150 160c0 Archiving C:\Users\mofum\AppData\Local\FoundryVTT\Data\modules\trpg-crab-dnd5e\packs\actors/MANIFEST-002733: OK
+2026/09/05-21:18:10.152 160c0 **** Repaired leveldb C:\Users\mofum\AppData\Local\FoundryVTT\Data\modules\trpg-crab-dnd5e\packs\actors; recovered 10 files; 17156193 bytes. Some data may have been lost. ****
